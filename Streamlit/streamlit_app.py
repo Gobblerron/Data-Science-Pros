@@ -34,46 +34,46 @@ if selected == "Data and sources":
     st.write(RQ_1)
 
    
-    RQ_2 = pd.read_csv("RQ_2/rq_2_berlin_houspa_pollution_2023_2025_apr_jun.csv")
+    RQ_2 = pd.read_csv("Streamlit/RQ_2/rq_2_berlin_houspa_pollution_2023_2025_apr_jun.csv")
     st.success("CSV found!")
     st.write(RQ_2)
 
    
-    RQ_3 = pd.read_csv("RQ_3/rq_3_richness_sh_data.csv")
+    RQ_3 = pd.read_csv("Streamlit/RQ_3/rq_3_richness_sh_data.csv")
     st.success("CSV found!")
     st.write(RQ_3)
 
    
-    RQ_4 = pd.read_csv("RQ_4/berlin_pigeon_pullution_2020_2024.csv")
+    RQ_4 = pd.read_csv("Streamlit/RQ_4/berlin_pigeon_pullution_2020_2024.csv")
     st.success("CSV found!")
     st.write(RQ_4)
 
 
-    RQ_5 = pd.read_csv("RQ_5/europe_ducks_march_2020_2024.csv")
+    RQ_5 = pd.read_csv("Streamlit/RQ_5/europe_ducks_march_2020_2024.csv")
     st.success("CSV found!")
     st.write(RQ_5)
 
 
-    RQ_5_2 = pd.read_csv("RQ_5/europe_ducks_recent_daily.csv")
+    RQ_5_2 = pd.read_csv("Streamlit/RQ_5/europe_ducks_recent_daily.csv")
     st.success("CSV found!")
     st.write(RQ_5_2.head())
 
-    RQ_6 = pd.read_csv("RQ_6/final_richness_vs_temp.csv")
+    RQ_6 = pd.read_csv("Streamlit/RQ_6/final_richness_vs_temp.csv")
     st.success("CSV found!")
     st.write(RQ_6.head())
 
    
-    RQ_7 = pd.read_csv("RQ_7/analyse_wind_enten_deutschland.csv")
+    RQ_7 = pd.read_csv("Streamlit/RQ_7/analyse_wind_enten_deutschland.csv")
     st.success("CSV found!")
     st.write(RQ_7.head())
 
    
-    RQ_8 = pd.read_csv("RQ_8/migratory_observations_SH_2021-2025.csv")
+    RQ_8 = pd.read_csv("Streamlit/RQ_8/migratory_observations_SH_2021-2025.csv")
     st.success("CSV found!")
     st.write(RQ_8.head())
 
    
-    RQ_9 = pd.read_csv("RQ_9/craneArrival_pollution_updated.csv")
+    RQ_9 = pd.read_csv("Streamlit/RQ_9/craneArrival_pollution_updated.csv")
     st.success("CSV found!")
     st.write(RQ_9.head())
 
@@ -122,6 +122,7 @@ if selected == "Research Question 9":
     st.title("Research Question 9")
 
     st.subheader("Does Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2025?")
+
 
 
 
