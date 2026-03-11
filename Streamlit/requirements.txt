@@ -3,3 +3,4 @@ pandas
 requests
 plotly
 streamlit_option_menu
+statsmodels
