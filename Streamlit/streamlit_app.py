@@ -30,51 +30,48 @@ if selected == "Data and sources":
 
    
     RQ_1 = pd.read_csv("Streamlit/RQ_1/hamburg_birdCounts_pollution_2021-2025.csv")
-    st.success("Data Research Question 1:")
+    st.success("Data used for Research Question 1:")
     st.write(RQ_1)
 
    
     RQ_2 = pd.read_csv("Streamlit/RQ_2/rq_2_berlin_houspa_pollution_2023_2025_apr_jun.csv")
-    st.success("CSV found!")
+    st.success("Data used for Research Question 2:")
     st.write(RQ_2)
 
    
     RQ_3 = pd.read_csv("Streamlit/RQ_3/rq_3_richness_sh_data.csv")
-    st.success("CSV found!")
+    st.success("Data used for Research Question 3:")
     st.write(RQ_3)
 
    
     RQ_4 = pd.read_csv("Streamlit/RQ_4/berlin_pigeon_pullution_2020_2024.csv")
-    st.success("CSV found!")
+    st.success("Data used for Research Question 4:")
     st.write(RQ_4)
 
 
     RQ_5 = pd.read_csv("Streamlit/RQ_5/europe_ducks_march_2020_2024.csv")
-    st.success("CSV found!")
-    st.write(RQ_5)
-
-
     RQ_5_2 = pd.read_csv("Streamlit/RQ_5/europe_ducks_recent_daily.csv")
-    st.success("CSV found!")
+    st.success("Data used for Research Question 5:")
+    st.write(RQ_5)
     st.write(RQ_5_2)
 
-    RQ_6 = pd.read_csv("Streamlit/RQ_6/final_richness_vs_temp.csv")
-    st.success("CSV found!")
+    RQ_6 = pd.read_csv("Streamlit/RQ_6/final_richness_vs_temp.csv")          
+    st.success("Data used for Research Question 6:")
     st.write(RQ_6)
 
    
-    RQ_7 = pd.read_csv("Streamlit/RQ_7/analyse_wind_enten_deutschland.csv")
-    st.success("CSV found!")
+    RQ_7 = pd.read_csv("Streamlit/RQ_7/analyse_wind_enten_deutschland.csv")         
+    st.success("Data used for Research Question 7:")
     st.write(RQ_7)
 
    
     RQ_8 = pd.read_csv("Streamlit/RQ_8/migratory_observations_SH_2021-2025.csv")
-    st.success("CSV found!")
+    st.success("Data used for Research Question 8:")
     st.write(RQ_8)
 
    
     RQ_9 = pd.read_csv("Streamlit/RQ_9/craneArrival_pollution_updated.csv")
-    st.success("CSV found!")
+    st.success("Data used for Research Question 9:")
     st.write(RQ_9)
 
 
@@ -122,6 +119,7 @@ if selected == "Research Question 9":
     st.title("Research Question 9")
 
     st.subheader("Does Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2025?")
+
 
 
 
