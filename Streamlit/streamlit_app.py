@@ -56,26 +56,26 @@ if selected == "Data and sources":
 
     RQ_5_2 = pd.read_csv("Streamlit/RQ_5/europe_ducks_recent_daily.csv")
     st.success("CSV found!")
-    st.write(RQ_5_2.head())
+    st.write(RQ_5_2)
 
     RQ_6 = pd.read_csv("Streamlit/RQ_6/final_richness_vs_temp.csv")
     st.success("CSV found!")
-    st.write(RQ_6.head())
+    st.write(RQ_6)
 
    
     RQ_7 = pd.read_csv("Streamlit/RQ_7/analyse_wind_enten_deutschland.csv")
     st.success("CSV found!")
-    st.write(RQ_7.head())
+    st.write(RQ_7)
 
    
     RQ_8 = pd.read_csv("Streamlit/RQ_8/migratory_observations_SH_2021-2025.csv")
     st.success("CSV found!")
-    st.write(RQ_8.head())
+    st.write(RQ_8)
 
    
     RQ_9 = pd.read_csv("Streamlit/RQ_9/craneArrival_pollution_updated.csv")
     st.success("CSV found!")
-    st.write(RQ_9.head())
+    st.write(RQ_9)
 
 
 if selected == "Research Question 1":
@@ -122,6 +122,7 @@ if selected == "Research Question 9":
     st.title("Research Question 9")
 
     st.subheader("Does Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2025?")
+
 
 
 
