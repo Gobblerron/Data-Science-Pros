@@ -561,9 +561,8 @@ if selected == "Research Question 5":
     st.subheader("🌍Density vs. stability of Mallard Ducks (2020-2024)")
 
     try:
-        df_hist = pd.read_csv("Streamlit/RQ_5/europe_ducks_march_2020_2024.csv")
-        df_density = pd.read_csv("Streamlit/RQ_5/europe_ducks_recent_daily.csv")
-
+        df_hist = pd.read_csv("RQ_5/europe_ducks_march_2020_2024.csv")
+        df_density = pd.read_csv("RQ_5/europe_ducks_recent_daily.csv")
 
         df_hist["Date"] = pd.to_datetime(df_hist["Date"])
         daily_ducks = df_hist.groupby(["Country","Date"])["DuckCount"].sum().reset_index()
@@ -573,10 +572,8 @@ if selected == "Research Question 5":
         density_country = df_density.groupby("Country").mean(numeric_only=True).reset_index()
         density_country["Density"] = density_country["DuckCount"] / density_country["LocationCount"]
 
-        
-        df_map = pd.merge(density_country, stability, on="Country", how="left")
+        df_combined = pd.merge(density_country, stability, on="Country", how="left")
 
-        
         view_option = st.selectbox(
             "Choose the metric for the map:",
             ["Density", "Instability (CV)"]
@@ -584,11 +581,9 @@ if selected == "Research Question 5":
 
         target_col = "Density" if view_option == "Density" else "CV"
         color_scale = "Reds" if view_option == "Density" else "Blues"
-        label_text = "Density" if view_option == "Density" else "Instability (Coefficient of Variation)"
 
-
-        fig = px.choropleth(
-            df_map,
+        fig_map = px.choropleth(
+            df_combined,
             locations="Country",
             locationmode="country names",
             color=target_col,
@@ -598,30 +593,128 @@ if selected == "Research Question 5":
             scope="europe"
         )
 
-        fig.update_layout(
+        fig_map.update_layout(
             geo=dict(
                 showframe=False,
                 showcoastlines=True,
                 projection_type='equirectangular',
                 landcolor="#0e1117",
                 showland = True,
-                bgcolor="#0e1117",         
+                bgcolor="#0e1117",          
                 lakecolor="#0e1117"
             ),
             margin=dict(l=0, r=0, t=50, b=0),
-            height = 500
+            height = 500,
+            template="plotly_dark"
         )
 
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig_map, use_container_width=True)
 
         if view_option == "Density":
             st.info("💡 **Density**: Shows where the average duck count per location for each European country.")
         else:
             st.info("💡 **Instability (CV, Coefficient of Variation)**: A high value indicates strong fluctuation over the years (for example: migration). A low value indicates a constant population.")
 
+        st.divider()
+        st.subheader("Duck Density vs Stability (Quadrant Analysis)")
+
+        median_density = df_combined["Density"].median()
+        median_cv = df_combined["CV"].median()
+
+        def classify(row):
+            if row["Density"] >= median_density and row["CV"] <= median_cv:
+                return "Stable Core Population"
+            elif row["Density"] >= median_density and row["CV"] > median_cv:
+                return "Seasonal Hotspot"
+            elif row["Density"] < median_density and row["CV"] <= median_cv:
+                return "Small Stable Population"
+            else:
+                return "Random Observations"
+
+        df_combined["Category"] = df_combined.apply(classify, axis=1)
+
+        x_max = df_combined["Density"].max() * 1.1
+        y_max = df_combined["CV"].max() * 1.1
+
+        fig_quad = px.scatter(
+            df_combined,
+            x="Density",
+            y="CV",
+            color="Category",
+            text="Country",
+            size="mean",
+            hover_name="Country",
+            hover_data=["Density","CV","mean","std"],
+            template="plotly_dark",
+            color_discrete_map={
+                "Stable Core Population": "#1C7A24",
+                "Seasonal Hotspot": "#E67E22",
+                "Small Stable Population": "royalblue",
+                "Random Observations": "firebrick"
+            }
+        )
+
+        fig_quad.update_traces(textposition="top center")
+        fig_quad.add_vline(x=median_density, line_dash="dash", line_color="grey")
+        fig_quad.add_hline(y=median_cv, line_dash="dash", line_color="grey")
+
+        fig_quad.update_layout(
+            paper_bgcolor="#0e1117",
+            plot_bgcolor="#0e1117",
+            height=600,
+            xaxis=dict(range=[0, x_max]),
+            yaxis=dict(range=[0, y_max]),
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+            updatemenus=[
+                dict(
+                    type="dropdown",
+                    direction="down",
+                    x=0.01,
+                    y=1.15,
+                    showactive=True,
+                    buttons=[
+                        dict(
+                            label="Show All Regions",
+                            method="relayout",
+                            args=[{"xaxis.range": [0, x_max], "yaxis.range": [0, y_max]}]
+                        ),
+                        dict(
+                            label="Zoom: Stable & Dense",
+                            method="relayout",
+                            args=[{"xaxis.range": [median_density, x_max], "yaxis.range": [0, median_cv]}]
+                        ),
+                        dict(
+                            label="Zoom: Unstable & Dense",
+                            method="relayout",
+                            args=[{"xaxis.range": [median_density, x_max], "yaxis.range": [median_cv, y_max]}]
+                        ),
+                        dict(
+                            label="Zoom: Stable & Sparse",
+                            method="relayout",
+                            args=[{"xaxis.range": [0, median_density], "yaxis.range": [0, median_cv]}]
+                        ),
+                        dict(
+                            label="Zoom: Unstable & Sparse",
+                            method="relayout",
+                            args=[{"xaxis.range": [0, median_density], "yaxis.range": [median_cv, y_max]}]
+                        ),
+                    ]
+                )
+            ]
+        )
+
+        st.plotly_chart(fig_quad, use_container_width=True)
+
+        st.info("""
+        * **Stable Core (Green):** High numbers, low fluctuation. These countries are the heart of the population.
+        * **Seasonal Hotspot (Orange):** High numbers but high fluctuation. Typical for countries birds only visit during migration.
+        * **Small Stable (Blue):** Lower numbers, but they stay constant.
+        * **Random Observations (Red):** Low numbers and unpredictable.
+        """)
+
     except Exception as e:
         st.error(f"Error:")
-        st.exception(e) 
+        st.exception(e)  
 
 
 if selected == "Research Question 6":
