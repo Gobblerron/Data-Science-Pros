@@ -1,0 +1,314 @@
+area_type,lat,lon,locId,locName,species_richness
+rural,53.384962,10.5819078,L57962555,"Lanzer Weg, Buchhorst, Schleswig-Holstein, DE (53,385, 10,582)",2
+rural,53.4252104,10.3362036,L13787326,Staustufe Elbe Geesthacht,1
+rural,53.427943,10.370105,L59465840,"Werftstraße, Geesthacht DE-Schleswig-Holstein 53.42794, 10.37011",1
+rural,53.4917005,10.6568027,L12571284,Büchener Sander (NSG),1
+rural,53.5031239,10.2889536,L19664720,Wentorfer Lohe,6
+rural,53.535432,10.218248,L44793941,"Haus und Baum, Stormarn",1
+rural,53.579104,9.677285,L58888546,"Pinneberger Elbmarschen, Wedel DE-Schleswig-Holstein (53.5791,9.6773)",1
+rural,53.58129,9.6623013,L13422249,Fährmannsand,7
+rural,53.5861528,9.8168326,L59127476,"125A Lütt Iserbrook, Hamburg, Hamburg, DE (53,586, 9,817)",10
+rural,53.58891,9.7210285,L40460833,Wedeler Au / Autal Wiesen,1
+rural,53.5909265,9.6537825,L13826827,Wedeler Marsch (NSG)--Kleientnahmestelle,27
+rural,53.5920764,9.6458019,L6187699,Wedeler Marsch (NSG),11
+rural,53.599308,9.617761,L27146904,Hetlinger Schanze,1
+rural,53.6196161,10.8166848,L37466128,Sterley,8
+rural,53.6257232,10.8043969,L23529943,Felder Sterley,3
+rural,53.643733,9.655301,L58640782,"Butterhörnweg, Heist",3
+rural,53.6554174,10.3208381,L12574050,Hoisdorfer Teiche (NSG),5
+rural,53.6588964,10.2742773,L28876614,"30A Waldreiterweg, Großhansdorf, Schleswig-Holstein, DE (53,659, 10,274)",1
+rural,53.6640202,10.1771902,L58276971,"17 Moorredder, Hamburg, Hamburg, DE (53,664, 10,177)",4
+rural,53.6786396,10.1930748,L21209663,Bredenbeker Teich,11
+rural,53.679957,10.15087,L58233045,"Hamburger Straße 70, Ammersbek DE-Schleswig-Holstein 53.67996, 10.15087",1
+rural,53.6945121,10.5495864,L27349328,Duvenseer Moor,8
+rural,53.6954657,10.7800851,L23367530,"Kleiner Küchensee, Ratzeburg",8
+rural,53.6980696,10.0635141,L7439076,Wittmoor (NSG) (SH),1
+rural,53.728949,10.294431,L23742129,Waldweg Bargteheide,5
+rural,53.730783,10.298804,L45212566,Beektwiete,3
+rural,53.733565,9.675667,L13654143,"Ollerlohstraße 17A, Elmshorn DE-Schleswig-Holstein 53.73357, 9.67567",1
+rural,53.7379322,10.7946412,L12571426,Steinerne Rinne und Mechower Holz (NSG),1
+rural,53.738519,10.744337,L46446644,Buchholz,8
+rural,53.7394275,9.8513591,L29972745,Himmelmoor,1
+rural,53.74008,10.311695,L45015162,Grootbek,12
+rural,53.745976,10.292203,L45044629,Zigeunerredder,1
+rural,53.7560458,10.5898157,L58604785,"1 Kastorfer Straße, Bliestorf, Schleswig-Holstein, DE (53,756, 10,59)",1
+rural,53.7567373,9.6901798,L59273604,Old Home,3
+rural,53.7874581,10.6576925,L33438326,Krummesser Moor,5
+rural,53.8177043,10.3526754,L4007533,Brennermoor (NSG),13
+rural,53.839459,10.7246452,L45894586,Wakenitz,3
+rural,53.8709239,10.506087,L54956064,Struckteich,13
+rural,53.8890268,10.5992583,L58847538,"Wüstenei, Lübeck, Schleswig-Holstein, DE (53,889, 10,599), Wüstenei",4
+rural,53.895295,10.664056,L58840259,"Vorwerker Friedhof, Lübeck DE-Schleswig-Holstein (53.8953,10.6641)",1
+rural,53.9015915,10.7194161,L4004772,Schellbruch (NSG),19
+rural,53.9041021,10.8378608,L58657743,Dummersdorfer Ufer,9
+rural,53.9119058,10.9292054,L12574127,Dassower See,20
+rural,53.9183583,10.8612909,L9305207,Dummersdorfer Ufer (NSG),2
+rural,53.9437149,10.8718859,L8208498,Südlicher Priwall (NSG),9
+rural,53.9492139,10.3261933,L17692530,Großer Segeberger See,3
+rural,53.9618209,10.8853238,L13435923,"Strand und Nordermole, Travemünde",23
+rural,53.975803,10.865309,L58251923,"Brodtener Winkel, Lübeck DE-Schleswig-Holstein (53.9758,10.8653)",1
+rural,53.9814132,10.7989688,L11109181,Aalbeek-Niederung (NSG),7
+rural,53.9822942,10.8818922,L10576381,Brodtener Steilküste,2
+rural,53.995906,10.839494,L58251867,"Lübecker Bucht DE (53.9959,10.8395)",5
+rural,54.0939991,8.9718389,L2491774,Meldorfer Speicherkoog (gesamt),1
+rural,54.0996576,10.6728561,L59258199,"1 An der Bundesstraße, Süsel, Schleswig-Holstein, DE (54,1, 10,673)",1
+rural,54.1325939,10.0246846,L12574143,Dosenmoor (NSG),1
+rural,54.1409466,10.4087886,L10375355,Großer Plöner See--Prinzeninsel,8
+rural,54.1420183,10.4374301,L4917652,Großer Plöner See--Ruhlebener Warder,1
+rural,54.153735,10.774221,L45682154,"23730, Altenkrempe DE-Schleswig-Holstein 54.15374, 10.77422",4
+rural,54.1545435,10.3742166,L59128972,"Dörnick (54,155, 10,374)",1
+rural,54.15825,10.750754,L46076618,"23730, Altenkrempe DE-Schleswig-Holstein 54.15825, 10.75075",4
+rural,54.159172,10.778834,L59464906,"23730, Altenkrempe DE-Schleswig-Holstein 54.15917, 10.77883",4
+rural,54.1646279,10.5137736,L15301111,Dieksee,1
+rural,54.1720146,10.01838,L8468545,Bordesholmer See,5
+rural,54.177208,7.8849901,L4450305,Helgoland--Kringel,4
+rural,54.1795522,7.8852439,L4421374,Helgoland--Mittelland,10
+rural,54.1845886,7.9130423,L4423285,Helgoland Düne--Golfteich,1
+rural,54.1858411,7.9100917,L1143865,Helgoland Düne (gesamt),30
+rural,54.186133,7.8735508,L4122737,Helgoland--Lummenfelsen,4
+rural,54.1863542,7.8832871,L4421261,Helgoland--Nordostgelände,6
+rural,54.1881913,7.8813386,L4421273,Helgoland--Nordoststrand,10
+rural,54.1882396,7.9104466,L4421279,Helgoland Düne--Nordstrand,6
+rural,54.1882791,7.8710604,L4428761,Helgoland--Lange Anna / Nordklippe,6
+rural,54.188777,7.8719831,L6454097,Helgoland--Nord Felswatt,2
+rural,54.1903005,7.865696,L4421315,Helgoland--Nordwestmole,4
+rural,54.2209771,10.2881172,L43127388,"Lankersee Nordteil, Kirchsee",6
+rural,54.2387532,10.3048847,L41324170,"Preetz Heimkroogkoppel, Ausgleichsfläche und Klärteiche",1
+rural,54.2438106,10.2306583,L9175739,Pohnsdorfer Stauung,1
+rural,54.2439678,10.3431286,L18113117,"Fuchsberg, Lehmkuhlen, Schleswig-Holstein, DE (54,244, 10,343)",11
+rural,54.2622232,10.2619376,L58879923,"Schwentinental (54,262, 10,262)",1
+rural,54.2646413,8.844265,L5230706,Katinger Watt--Eider-Sperrwerk,4
+rural,54.2735962,10.7961882,L59038425,Grammdorf,1
+rural,54.277437,9.960308,L58833539,Westensee: Borner [1725_2_18n],1
+rural,54.279193,9.907756,L58932725,"Westensee, Westensee DE-Schleswig-Holstein (54.2792,9.9078)",2
+rural,54.2859897,8.6496587,L52687346,Böhler Leuchtturm,1
+rural,54.2866232,10.0932598,L955340,Schulensee und Umgebung (NSG),9
+rural,54.2935541,10.0562783,L43761504,Tier- und Wildgehege Hammer,3
+rural,54.2968736,10.0787687,L12873603,Russee,9
+rural,54.2986616,10.3119896,L54918545,"Großholz, Lilienthal",2
+rural,54.3025238,10.8069347,L57316803,Einhaus Gut [1731_1_21s],1
+rural,54.3036079,9.6591953,L26643177,Stadtpark Rendsburg,2
+rural,54.3040208,10.8067972,L12573052,Wesseker See (NSG),15
+rural,54.3045283,10.7921988,L59536562,"1001 Seestraße, Wangels, Schleswig-Holstein, DE (54,305, 10,792)",4
+rural,54.308983,10.676179,L59500753,Sehlendorfer Binnensee: Beobachtungsplattform Rundblick (gesamt),17
+rural,54.30903,10.6774994,L8237246,Sehlendorfer Binnensee und Umgebung (NSG),22
+rural,54.3091872,10.0803688,L11748131,"Aubrook, Kiel, Schleswig-Holstein, DE (54.309, 10.08)",13
+rural,54.3131642,10.1512794,L58449559,Gustav-Schatz-Hof,8
+rural,54.32185,10.1027987,L58391624,Veloroute,8
+rural,54.3222396,10.0808005,L13199988,"Wildgehege Hasseldiekdamm, Kiel",2
+rural,54.3229966,9.9645923,L13431738,Flemhudersee--Spülfläche Süd,3
+rural,54.3233458,10.3530815,L59208100,Forst Schmütz,11
+rural,54.3251639,10.6448033,L12573425,Kronswarder und südöstlicher Teil des Großen Binnensees (NSG),1
+rural,54.3282371,10.1242813,L12671474,"Schrevenpark, Kiel",33
+rural,54.3318221,10.0611345,L13199994,Ottendorfer Au (Domänental),4
+rural,54.3380409,10.1573768,L1438888,"Kiellinie, Kiel",6
+rural,54.3437059,10.1932568,L12573504,Mönkeberger See (NSG),22
+rural,54.3450899,10.1133154,L16233001,"Campus, Kiel",20
+rural,54.3452816,10.12516,L16232995,"Nordfriedhof, Kiel",3
+rural,54.3466889,10.1144462,L58075933,"4 Christian-Albrechts-Platz, Kiel, Schleswig-Holstein, DE (54,347, 10,114)",2
+rural,54.346731,10.164764,L13990292,Kieler Förde,12
+rural,54.3477189,10.141069,L1438885,"Forstbaumschule, Kiel",7
+rural,54.3479769,10.1168177,L16232988,"Botanischer Garten, Kiel",1
+rural,54.3481018,10.61585,L39130550,NSG Kleiner Binnensee,20
+rural,54.3489325,10.6204976,L52686957,NSG Kleiner Binnensee,16
+rural,54.349766,10.621565,L59500751,Kleiner Binnensee: Rusch,10
+rural,54.3519435,10.1444193,L27507581,Sportboothafen Wik,1
+rural,54.3540349,10.6186616,L5828627,Kleiner Binnensee und angrenzende Salzwiesen (NSG),13
+rural,54.3649972,10.1147272,L16233021,Tiergehege Tannenberg,5
+rural,54.3678168,10.1294499,L4664671,"Nord-Ostsee-Kanal, Kiel",1
+rural,54.3682329,10.0928833,L16233013,Projensdorfer Gehölz,2
+rural,54.374247,10.204741,L25810377,Langer Rehm 32,1
+rural,54.3775928,11.0043964,L13431811,Graswarder-Heiligenhafen (NSG),1
+rural,54.383234,10.943308,L58080909,Steilküste,1
+rural,54.3906056,10.1934157,L38959784,Leuchtturm Friedrichsort,12
+rural,54.3983525,11.117249,L12658996,Fehmarnsund,2
+rural,54.4019548,11.3117981,L6156631,Fehmarn--Leuchtturm Staberhuk,2
+rural,54.4054412,9.0347029,L58434525,"Büttel, Witzwort, Schleswig-Holstein, DE (54,405, 9,035)",2
+rural,54.4068391,10.4354609,L6978778,Stakendorfer Strand,21
+rural,54.4091129,10.1506733,L54444652,Kiel: Seekamp,9
+rural,54.4139,10.2266,L29583285,Laboe: Strand,6
+rural,54.414545,10.234565,L11598268,Dünenlandschaft Laboe,14
+rural,54.4159531,10.234752,L58616174,Laboe,13
+rural,54.4162332,10.4158924,L8695246,Schönberger Seebrücke,7
+rural,54.417333,10.263202,L11598305,Strand Stein,11
+rural,54.418189,10.3038462,L12573392,Barsbeker See und Umgebung (NSG),2
+rural,54.4182006,10.2371981,L20274802,"Sandbänke Neustein, Laboe",29
+rural,54.4212822,9.6571458,L58524498,Rammsee,2
+rural,54.4246839,10.0688792,L12573548,Kaltenhofer Moor (NSG),4
+rural,54.4255373,10.2869924,L1033222,Bottsand (NSG),46
+rural,54.425808,10.2868252,L56001336,häufig,21
+rural,54.4304319,10.1714964,L38982459,"Olympiahafen, Schilksee",5
+rural,54.4315493,10.3070241,L39057470,Ferienhausgebiet westlich Heidkate,1
+rural,54.434272,10.3194543,L8262529,Heidkate,20
+rural,54.4357223,10.1724759,L56219599,Hafen Strande,1
+rural,54.4442542,10.1853995,L59115811,Strander Bucht,3
+rural,54.45002,10.186481,L10498259,"Schöpfwerksgraben und Wiesen, Bülk",17
+rural,54.4581328,8.9773667,L8701979,Simonsberger Siel,3
+rural,54.4583924,9.9346394,L10468817,"Grünlandniederung, Aschau",5
+rural,54.4598748,9.9267038,L8426619,Aschauer Lagune,13
+rural,54.4625542,9.093205,L43273666,Mildstedt ZH,8
+rural,54.4688842,9.0585259,L31458301,Rödemis,1
+rural,54.4744547,9.1071474,L8701937,Mildstedter Tannen,1
+rural,54.476364,11.016845,L59500750,Fehmarn: NABU-Wasservogelreservat Wallnau Kampteich,1
+rural,54.4778915,8.8108179,L11086071,Nordstrand--Vorland Fuhlehörn,14
+rural,54.4794885,9.0172005,L4113209,Dockkoog,17
+rural,54.4867186,9.0249681,L4113237,Porrenkoog (gesamt),3
+rural,54.4895106,9.0139389,L4113259,Porrenkoog--Vorland,6
+rural,54.4934933,9.5749708,L11530271,Haddebyer Noor,1
+rural,54.5119306,9.5413553,L16233137,"Museumsinsel Schloss Gottorf, Schleswig",1
+rural,54.513461,11.192843,L59500752,Gruner Brink: Sandhaken,10
+rural,54.513794,8.945381,L58843642,Nordstrander Damm Info-Punkt,5
+rural,54.516282,8.872093,L58516612,"K 68, Elisabeth-Sophien-Koog DE-Schleswig-Holstein 54.51628, 8.87209",3
+rural,54.517187,8.932369,L58939063,Grünland vor dem Womoland Nordstrand,3
+rural,54.518251,8.932037,L58786792,Wohnmobilhafen Nordstrand,2
+rural,54.5217301,9.634328,L2293384,Reesholm Schlei (NSG),2
+rural,54.522387,8.991398,L40343945,"L 30, Wobbenbüll DE-Schleswig-Holstein (54.5224,8.9914)",16
+rural,54.5267688,8.9771244,L8637524,Beltringharder Koog (NSG)--Kleientnahme Südost,2
+rural,54.5274783,8.873907,L6453616,Beltringharder Koog (NSG)--Holmer Siel,22
+rural,54.5375455,11.2553472,L12576612,Fähre Puttgarden - Rødbyhavn (DE),2
+rural,54.5468582,8.9392109,L11047865,Beltringharder Koog (NSG)--Arlau Schleuse,39
+rural,54.5590517,8.8845321,L3517573,Beltringharder Koog (NSG) (gesamt),6
+rural,54.5654764,8.8978942,L12011681,Beltringharder Koog (NSG)--Lüttmoordamm,33
+rural,54.5833793,9.8201209,L48297459,Lindaunisbrücke,5
+rural,54.603013,9.358097,L58505691,"24852, Langstedt DE-Schleswig-Holstein 54.60301, 9.35810",2
+rural,54.6062057,8.939391,L59432948,Reußenköge,1
+rural,54.6472014,8.8919772,L54924090,"1000 Sterdebüller Alter Deich, Bordelum, Schleswig-Holstein, DE (54,647, 8,892)",1
+rural,54.6479861,8.8428307,L12123986,Reußenköge,8
+rural,54.6545996,8.9429219,L12572797,Bordelumer Heide und Langenhorner Heide (NSG)--Westteil,4
+rural,54.6553032,8.9493627,L53405505,Bordelumer Heide und Langenhorner Heide (gesamt),3
+rural,54.6561568,8.9550599,L11089055,Bordelumer Heide und Langenhorner Heide (NSG)--Ostteil,4
+rural,54.668024,8.7845782,L8357055,Hauke-Haien-Koog--Südbecken,8
+rural,54.6811768,9.9939859,L18200566,"Yachthafen, Maasholm",7
+rural,54.6814994,8.7640858,L27045141,Hauke-Haien-Koog--Mittelbecken,1
+rural,54.6819671,8.7573745,L53208501,Bäumchen und Gebüsch Schlüttsiel,1
+rural,54.6846985,8.7653732,L4315857,Hauke-Haien-Koog (gesamt),7
+rural,54.6895035,8.7585068,L4428464,Hauke-Haien-Koog--Nordbecken,8
+rural,54.7086488,8.7494946,L4428468,Fahretofter Westerkoog,15
+rural,54.7176119,8.4955216,L3522414,Föhr (gesamt),54
+rural,54.7400708,9.6116941,L11882060,Winderatter See,4
+rural,54.7747459,9.4489107,L59175703,campus,5
+rural,54.7787763,9.4405154,L58841031,"39 Waitzstraße, Flensburg, Schleswig-Holstein, DE (54.779, 9.441)",4
+rural,54.7878529,9.3576899,L14804274,Stiftungsland Schäferhaus,3
+rural,54.8149815,9.4289933,L55306923,dssadas,2
+rural,54.867777,9.6011,L58829442,"Strand Holnis, 格吕克斯堡 DE-石勒苏益格-荷尔斯泰因 (54.8678,9.6011)",3
+rural,54.8682137,8.9548615,L12572684,Schwansmoor und Kranichmoor (NSG),5
+rural,54.8688124,9.591699,L12573771,Halbinsel Holnis (NSG)--Kleines Noor,3
+rural,54.8942602,8.8548644,L10903552,Haasberger See,4
+rural,55.0497693,8.4269911,L4941004,Sylt--Nord-Sylt (NSG) Ellenbogen,3
+urban,53.4933862,10.2393737,L17289690,Bergedorfer Gehölz,5
+urban,53.5721,9.707083,L58397811,"Mozartstraße 20, Wedel DE-Schleswig-Holstein (53.5721,9.7071)",3
+urban,53.575346,9.69781,L58031390,Park U-Bootteich,1
+urban,53.588941,10.446588,L49707281,Dahmker - Hamfelde,1
+urban,53.623942,9.782639,L39719602,"Kastanienallee, Pinneberg DE-Schleswig-Holstein 53.62394, 9.78264",3
+urban,53.644594,9.837345,L59152144,Büro,3
+urban,53.6589546,10.2835884,L24806755,garten,3
+urban,53.6613189,10.2439365,L58602297,"Ahrensburg, Schleswig-Holstein, DE (53,661, 10,244)",3
+urban,53.67145,10.635969,L44514942,"Elbe-Lübeck-Kanal, Donnerschleuse",9
+urban,53.6934042,10.0014161,L58876721,"28A Lütten Barg, Norderstedt, Schleswig-Holstein, DE (53,693, 10,001)",1
+urban,53.6936208,9.9984405,L58877169,"17C Weg am Sportplatz, Norderstedt, Schleswig-Holstein, DE (53,694, 9,998)",2
+urban,53.725411,10.287067,L24133964,My back yard,27
+urban,53.735529,10.746319,L43883531,Buchholz,5
+urban,53.737851,10.307903,L45020037,Damm,3
+urban,53.742601,10.30937,L45019909,Dorfplatz,14
+urban,53.743755,10.301232,L45097057,Twiete,1
+urban,53.7639983,9.6761217,L59028486,"Elmshorn, Schleswig-Holstein, DE (53,764, 9,676)",1
+urban,53.8056463,10.3827702,L45044728,"10 Käthe-Kollwitz-Straße, Bad Oldesloe, Schleswig-Holstein, DE (53,806, 10,383)",1
+urban,53.814179,10.67954,L59608788,"Vorrede, Lübeck DE-Schleswig-Holstein (53.8142,10.6795)",4
+urban,53.8292215,10.4999856,L59126135,"19 Feldstraße, Reinfeld, Schleswig-Holstein, DE (53,829, 10,5)",1
+urban,53.8307203,10.5110521,L59256151,"10 Ohlfeld, Wesenberg, Schleswig-Holstein, DE (53,831, 10,511)",1
+urban,53.832022,9.471649,L58233814,"Eltersdorf 19, Borsfleth DE-Schleswig-Holstein 53.83202, 9.47165",6
+urban,53.8595357,10.6877362,L21100036,"Mühlenteich, Lübeck",13
+urban,53.859654,10.688095,L59251116,"Wallstraße 40, Lübeck DE-Schleswig-Holstein (53.8597,10.6881)",2
+urban,53.8621925,10.7070058,L58702992,Garten,1
+urban,53.8670224,10.7002747,L57046748,Perceval10,1
+urban,53.871327,10.691752,L38985505,"Große Gröpelgrube 8, Lübeck DE-Schleswig-Holstein (53.8713,10.6918)",1
+urban,53.880849,10.674111,L59510988,"Bei der Lohmühle 21B, Lübeck DE-Schleswig-Holstein 53.88085, 10.67411",1
+urban,53.8812095,10.6316227,L16349144,"Gut Mori, Lübeck",1
+urban,53.890492,10.654198,L58594067,Landgraben,7
+urban,53.894148,10.716294,L28559557,Lübeck Karlshof,2
+urban,53.9052273,10.7954356,L58690381,Kücknitzer Mühlengraben,14
+urban,53.9069928,9.876194,L57015348,"Bad Bramstedt, Schleswig-Holstein, DE",17
+urban,53.9073717,10.0047126,L58168380,Hasenmoor,3
+urban,53.9374546,9.1447317,L58436396,"1 Liebesallee, Brunsbüttel, Schleswig-Holstein, DE (53,937, 9,145)",1
+urban,53.9554838,10.8668589,L13416357,"Anleger Priwallfähre, Travemünde",19
+urban,53.963773,10.877164,L58252127,"Kurpark Calvarienberg, Lübeck DE-Schleswig-Holstein (53.9638,10.8772)",1
+urban,53.9708215,10.7740205,L58169646,Hemmelsdorf,4
+urban,53.9797999,9.7550304,L58519212,Störkaten,1
+urban,53.9945773,10.8163403,L22080786,Strand Niendorf,2
+urban,54.0214753,9.3881191,L58226610,"Wacken, Schleswig-Holstein, de (54,021, 9,388)",1
+urban,54.1626584,9.9102001,L58034380,Schülp bei Nortorf,3
+urban,54.1633855,10.4128298,L13321642,"Trentsee, Plön",3
+urban,54.175901,10.0281385,L56978224,"25A Holstenstraße, Bordesholm, Schleswig-Holstein, DE (54,176, 10,028)",13
+urban,54.1801258,7.8830089,L59525544,"685 Leuchtturmstraße, Helgoland, Schleswig-Holstein, DE (54,18, 7,883)",1
+urban,54.1811709,7.8872569,L6453645,Helgoland--Falm,1
+urban,54.1826973,7.8901851,L8337515,Helgoland--Lesehalle,1
+urban,54.1835357,7.8871556,L59472216,Falm,1
+urban,54.1843324,7.8829804,L59467865,Vogelwarte Helgoland,1
+urban,54.1844227,7.882669,L4421391,Helgoland--Fanggarten,2
+urban,54.1844291,7.9057347,L59407970,"33 Düne, Helgoland, Schleswig-Holstein, DE (54,184, 7,906)",1
+urban,54.1849967,7.8877223,L4421309,Helgoland--Kurgelände,11
+urban,54.1859929,7.8860571,L23296849,Helgoland--Kurpark,3
+urban,54.1860711,7.8774138,L4421351,Helgoland--Oberland,10
+urban,54.200332,9.246374,L39939869,"Ellernbrook 10, Welmbüttel DE-Schleswig-Holstein 54.20033, 9.24637",19
+urban,54.213654,9.941257,L52384302,Melkenkamp Feldrand,2
+urban,54.213725,9.939173,L52384277,Melkenkamp Wohngebiet,23
+urban,54.2322189,10.2848739,L13295934,Kirchsee Preetz,4
+urban,54.240328,10.2824092,L19198315,Kloster Preetz,27
+urban,54.2452881,10.8176505,L57307570,Schaarberg - Feldflur,8
+urban,54.293247,10.2371831,L8326037,Altarm der Schwentine (NSG),4
+urban,54.3049419,10.0773921,L58036438,"71 Rutkamp, Kiel, Schleswig-Holstein, DE (54,305, 10,077)",3
+urban,54.3081139,9.7129419,L42638378,"Schacht-Audorf, Schleswig-Holstein, DE (54,308, 9,713)",1
+urban,54.3124597,10.1338178,L12874658,"Hörn, Kiel",4
+urban,54.314849,9.96394,L59203798,"Auto selected 54.31485, 9.96394",1
+urban,54.3195307,10.0917696,L58348118,Kleingärten Hasseldieksdamer Weg,2
+urban,54.3196571,10.3273366,L8695258,Dobersdorfer See--Badestelle Schlesen,6
+urban,54.3241992,10.1054551,L58390896,"67 Langenbeckstraße, Kiel, Schleswig-Holstein, DE (54,324, 10,105)",3
+urban,54.324302,10.1331813,L10523083,"Hiroshimapark, Kiel",1
+urban,54.3258855,10.1395616,L16232964,"Ratsdienergarten, Kiel",1
+urban,54.3283323,10.1122036,L58075916,"15A Alte Weide, Kiel, Schleswig-Holstein, DE (54,328, 10,112)",2
+urban,54.331905,10.4084201,L59572638,Forst Hohenhorst,4
+urban,54.3346176,10.1206932,L31457530,"Schauenburgerstrasse, Kiel",10
+urban,54.3370316,10.1207942,L50272559,"KIEL, SCHLESWIG-HOLSTEIN (54.337, 10.121)",1
+urban,54.3412431,10.152753,L12874691,"Düsternbrooker Gehölz, Kiel",4
+urban,54.3413909,10.1457436,L59427886,Düsternbrook,12
+urban,54.341566,10.118065,L58076425,"Christian-Albrechts-Universität zu Kiel, Kiel DE-Schleswig-Holstein 54.34157, 10.11807",1
+urban,54.3426268,10.1351361,L42771648,"14 Hardenbergstraße, Kiel, Schleswig-Holstein, DE (54,343, 10,135)",5
+urban,54.3431543,10.1831223,L58848960,Hasselfelde,2
+urban,54.3447773,9.9859322,L13431683,Landwehr (Fähre),8
+urban,54.366513,10.1470985,L16150243,Schleusen Kiel-Holtenau,19
+urban,54.3689543,10.1532568,L58200071,"12 Tiessenkai, Kiel, Schleswig-Holstein, DE (54.369, 10.153)",6
+urban,54.3763409,10.9798823,L1279865,"Marina, Heiligenhafen",4
+urban,54.3891752,10.1785799,L55858101,Fähranleger Friedrichsort,2
+urban,54.3900849,10.1775459,L58762198,"Kiel: Friedrichsort, MAK-Anleger",4
+urban,54.3901209,10.177065,L58843278,"4 Skagerrakufer, Kiel, Schleswig-Holstein, DE (54.39, 10.177)",5
+urban,54.3901343,10.154812,L38964255,"Stekendammsau, Kiel",9
+urban,54.3924666,10.1744789,L58600571,"11 Oldestraße, Kiel, Schleswig-Holstein, Schrebergärten",1
+urban,54.3969175,10.1474302,L59266164,"149 Friedrichsruher Weg, Kiel, Schleswig-Holstein, DE (54,397, 10,147)",8
+urban,54.3991267,10.1900827,L15117151,Falckensteiner Strand,4
+urban,54.400219,10.382561,L56224477,Garten,1
+urban,54.4034373,10.1564377,L38945551,Dorf Pries - Kiel,24
+urban,54.4085264,10.2225521,L28503612,Strand Laboe,5
+urban,54.416834,10.241747,L58833540,Hagener Au: Mundung,1
+urban,54.41778,10.370848,L58120877,"An den Salzwiesen 1, Schönberg (Holstein) DE-Schleswig-Holstein",13
+urban,54.4551688,10.1973501,L1033613,Bülker Leuchtturm,18
+urban,54.4553377,9.9291867,L58215883,Aschauhof,4
+urban,54.4727374,9.0710916,L13443023,Mauseberge,3
+urban,54.4789136,9.6897017,L58156253,"17 Bramberg, Fleckeby, Schleswig-Holstein, DE (54.479, 9.69)",3
+urban,54.4901626,9.0381975,L43958075,BCSH,3
+urban,54.495647,9.035395,L56393039,"Lund 19, Husum DE-Schleswig-Holstein 54.49565, 9.03540",1
+urban,54.5239787,8.9958265,L30440320,"7 Süderweg, Wobbenbüll, Schleswig-Holstein, DE (54,524, 8,996)",3
+urban,54.612071,9.497595,L59211638,Elmholz,3
+urban,54.624773,9.956076,L43617447,"Köllnerfeld 2, 24398 Winnemark",8
+urban,54.7461991,9.4616086,L39620437,Feld / Wielenberg,2
+urban,54.7469113,9.4634607,L50856462,Wielenberg,4
+urban,54.7711253,9.9058485,L7759096,"Mühle Charlotte, Gelting",7
+urban,54.7774957,9.4452041,L59015676,"78 Kanzleistraße, Flensburg, Schleswig-Holstein, DE (54.777, 9.445)",1
+urban,54.7860211,9.4291549,L17672047,"Alter Friedhof, Flensburg",5
+urban,54.7932187,9.4242834,L55833150,Jobcenter Flensburg,1
+urban,54.7956331,9.4312458,L58741866,Schiffbrücke/Wasserspiel Phänomenta,1
+urban,54.81244,9.43018,L55356278,"Ostseebad, Flensburg DE-Schleswig-Holstein (54.8124,9.4302)",1
+urban,54.825144,9.420877,L14936746,Strandbad Wassersleben,7
+urban,54.872488,8.884203,L47195904,Tannenring,1
+urban,54.8931885,8.7618155,L13434103,Ruttebüller See (DE),6
+urban,54.8966082,8.750498,L59141662,Rudbøl,1
+urban,54.9046961,8.8295528,L13434310,Aventoft,1
