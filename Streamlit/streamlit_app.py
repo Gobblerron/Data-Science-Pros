@@ -197,7 +197,6 @@ if selected == "Research Question 1":
             ])
         )
 
-        # --- GESTRICHELTE LINIE FÜR DIE LEGENDE ---
         fig1.add_trace(go.Scatter(
             x=[None], y=[None],
             mode='lines',
@@ -205,8 +204,7 @@ if selected == "Research Question 1":
             name=f'Critical Threshold ({threshold} µg/m³)',
             showlegend=True
         ))
-
-        # Die tatsächliche vertikale Linie im Chart
+        
         fig1.add_vline(
             x=threshold,
             line_dash="dash",
@@ -249,7 +247,7 @@ if selected == "Research Question 2":
     st.title("Research Question 2")
     st.subheader("🐦How are hotspots of house sparrows in Berlin influenced by increased pollution in the years 2023-2025?")
 
-    file_path_rq2 = "RQ_2/rq_2_berlin_houspa_pollution_2023_2025_apr_jun.csv"
+    file_path_rq2 = "Streamlit/RQ_2/rq_2_berlin_houspa_pollution_2023_2025_apr_jun.csv"
 
     try:
         df_sparrows = pd.read_csv(file_path_rq2)
@@ -362,7 +360,7 @@ if selected == "Research Question 3":
     st.title("Research Question 3")
     st.subheader("How does bird species richness differ between urban and rural locations in Schleswig-Holstein in the last 30 days?")
 
-    file_path_rq3 = "RQ_3/rq_3_richness_sh_data.csv"
+    file_path_rq3 = "Streamlit/RQ_3/rq_3_richness_sh_data.csv"
 
     try:
         df_richness = pd.read_csv(file_path_rq3)
@@ -413,7 +411,7 @@ if selected == "Research Question 4":
     st.title("Research Question 4")
     st.subheader("How does O3 concentration influence the observation frequency of feral pigeons in Berlin in the years 2020-2024?")
 
-    file_path = "RQ_4/berlin_pigeon_pullution_2020_2024.csv"
+    file_path = "Streamlit/RQ_4/berlin_pigeon_pullution_2020_2024.csv"
 
     @st.cache_data
     def get_data(path):
@@ -563,8 +561,8 @@ if selected == "Research Question 5":
     st.subheader("🌍Density vs. stability of Mallard Ducks (2020-2024)")
 
     try:
-        df_hist = pd.read_csv("RQ_5/europe_ducks_march_2020_2024.csv")
-        df_density = pd.read_csv("RQ_5/europe_ducks_recent_daily.csv")
+        df_hist = pd.read_csv("Streamlit/RQ_5/europe_ducks_march_2020_2024.csv")
+        df_density = pd.read_csv("Streamlit/RQ_5/europe_ducks_recent_daily.csv")
 
 
         df_hist["Date"] = pd.to_datetime(df_hist["Date"])
@@ -631,7 +629,7 @@ if selected == "Research Question 6":
     st.subheader("How does bird species richness during spring change in relation to temperature between 2020 and 2025 in northern and southern Germany")
     st.subheader("☀️Bird species richness vs. Temperature (North vs. South)")
 
-    file_path_rq6 = "RQ_6/final_richness_vs_temp.csv"
+    file_path_rq6 = "Streamlit/RQ_6/final_richness_vs_temp.csv"
 
     try:
         df_richness = pd.read_csv(file_path_rq6)
@@ -698,7 +696,7 @@ if selected == "Research Question 7":
     st.subheader("How does wind speed affect the observation frequency of duck species?")
     st.subheader("🦆Duck species vs. Wind speeds (North vs. South)")
 
-    file_path_rq7 = "RQ_7/analyse_wind_enten_deutschland.csv"
+    file_path_rq7 = "Streamlit/RQ_7/analyse_wind_enten_deutschland.csv"
 
     try:
         df_wind = pd.read_csv(file_path_rq7)
@@ -782,7 +780,7 @@ if selected == "Research Question 8":
     st.subheader("How does the observation frequency of migratory bird species differ between spring and autumn in Schleswig-Holstein in the year 2021 and 2025 and can the potential offspring of those birds be determined?")
     st.subheader("🍃🍂Comparison of Migratory Bird Patterns in Schleswig-Holstein (Spring vs. Autumn)")
 
-    file_path_rq8 = "RQ_8/migratory_observations_SH_2021-2025.csv"
+    file_path_rq8 = "Streamlit/RQ_8/migratory_observations_SH_2021-2025.csv"
 
     try:
         df_mig = pd.read_csv(file_path_rq8)
@@ -869,7 +867,7 @@ if selected == "Research Question 9":
     st.subheader("𓅰 𓅬 𓅭 𓅮 𓅯Migration vs. Air Pollution")
     st.subheader("Boxplot")
 
-    file_path_rq9 = "RQ_9/craneCount_pollution_arrivalDates_2021-2025.csv"
+    file_path_rq9 = "Streamlit/RQ_9/craneCount_pollution_arrivalDates_2021-2025.csv"
 
     try:
         df_cranes = pd.read_csv(file_path_rq9)
