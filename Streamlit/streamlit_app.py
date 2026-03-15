@@ -865,7 +865,7 @@ if selected == "Research Question 9":
     st.title("Research Question 9")
     st.subheader("Does Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2025?")
     st.subheader("𓅰 𓅬 𓅭 𓅮 𓅯Migration vs. Air Pollution")
-    st.subheader("Boxplot")
+    st.subheader("Boxplot: PM10 vs. PM2.5 vs. O3 comparison")
 
     file_path_rq9 = "Streamlit/RQ_9/craneCount_pollution_arrivalDates_2021-2025.csv"
 
