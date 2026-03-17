@@ -1,9 +1,14 @@
 # Data-Science-Pros
-Alles was wir brauchen und sooo
 
 
+**Building and deployement of the website**
 
+The website was built and deployed using Streamlit. The entire code is contained within a single streamlit_app.py file in our repository. This file includes the navigation menu, the individual sections, and the code for all visualizations.
 
+To build the website, we relied on the official Streamlit documentation as well as LLMs like Google Gemini and ChatGPT. We utilized LLMs for some parts of the code due to the four week time constraint and a lack of prior experience in web development.
+
+The deployment of the website was carried out as follows:
+First, we connected our GitHub repository to the Streamlit Cloud and authorized the connection. We then created a requirements.txt file in the same directory as streamlit_app.py, listing all the libraries used in the code. Finally, the website was successfully deployed.
 
 **Showcase how to use the website and highlights**
 
