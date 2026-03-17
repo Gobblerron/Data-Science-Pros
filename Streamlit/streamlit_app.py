@@ -30,7 +30,7 @@ with st.sidebar:
 if selected == "Homepage":
     st.title("Dashboard")
     st.title("Research Topic: Bird observations and its influences")
-    st.image("Cranes_Homepage.png", width=2100)
+    st.image("Streamlit/Cranes_Homepage.png", width=2100)
     st.subheader("Research Questions:")
     st.write("""
 **1.** How does air Pollution affect bird observation frequency in Hamburg in the years 2021-2025 and which pollutant affects the birds the most?
