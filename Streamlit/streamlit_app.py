@@ -1187,8 +1187,18 @@ if selected == "Research Question 8":
 
     file_path_rq8 = "Streamlit/RQ_8/migratory_observations_SH_2021-2025.csv"
 
+    species_translation = {
+        "Weißwangengans": "Barnacle Goose",
+        "Knutt": "Red Knot",
+        "Ringelgans": "Brant Goose",
+        "Alpenstrandläufer": "Dunlin"
+        "Austernfischer": "Oystercatcher"
+
     try:
         df_mig = pd.read_csv(file_path_rq8)
+
+        df_mig['Species'] = df_mig['Species'].replace(species_translation)
+        
         target_years = [2021, 2024]
         target_seasons = ['Spring', 'Autumn']
         
