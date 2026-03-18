@@ -1276,8 +1276,8 @@ if selected == "Research Question 8":
 
         st.success("""
                This Visulaization compares the relative amounts of migratory bird observations between 2021 and 2024.
-               The Barnacle Goose (Weißwangengans) remains the most dominant species in both periods. However, a 
-               significant change is observed in the Red Knot (Knutt): while observations peaked during the spring of 
+               The Barnacle Goose remains the most dominant species in both periods. However, a 
+               significant change is observed in the Red Knot: while observations peaked during the spring of 
                2021, the 2024 data shows a transition toward an autumn-heavy distribution. While most species 
                remained consistent in their timing, specific shifts show the dynamic nature of migratory birds.
                """)
