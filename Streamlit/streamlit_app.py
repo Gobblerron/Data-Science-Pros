@@ -49,7 +49,7 @@ if selected == "Homepage":
              
 **7.** How does wind speed affect the observation frequency of duck species?
              
-**8.** How does the observation frequency of migratory bird species differ between spring and autumn in Schleswig-Holstein in the year 2021 and 2024 and can the potential offspring of those birds be determined?
+**8.** How does the observation frequency of migratory bird species differ between spring and autumn in Schleswig-Holstein in the year 2021 and 2024?
 
 **9.** Did Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2025?
              """)
@@ -1185,7 +1185,7 @@ if selected == "Research Question 7":
 
 if selected == "Research Question 8":
     st.title("Research Question 8")
-    st.subheader("How does the observation frequency of migratory bird species differ between spring and autumn in Schleswig-Holstein in the year 2021 and 2024 and can the potential offspring of those birds be determined?")
+    st.subheader("How does the observation frequency of migratory bird species differ between spring and autumn in Schleswig-Holstein in the year 2021 and 2024?")
     st.subheader("🍃🍂Comparison of Migratory Bird Patterns in Schleswig-Holstein (Spring vs. Autumn)")
 
     file_path_rq8 = "Streamlit/RQ_8/migratory_observations_SH_2021-2025.csv"
