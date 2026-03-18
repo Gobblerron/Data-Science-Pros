@@ -1191,7 +1191,7 @@ if selected == "Research Question 8":
         "Weißwangengans": "Barnacle Goose",
         "Knutt": "Red Knot",
         "Ringelgans": "Brant Goose",
-        "Alpenstrandläufer": "Dunlin"
+        "Alpenstrandläufer": "Dunlin",
         "Austernfischer": "Oystercatcher"
     }
 
