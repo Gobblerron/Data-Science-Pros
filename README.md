@@ -1,5 +1,44 @@
 # ReadME
 
+**Introduction**
+
+Bird obseravtions provide valuable information about species distribution and environmental changes. Large datasets of bird sighting can help researchers understand ecological trends. This project analysis bird observation data to gain insights into bird activity and distribution.
+
+**Research Questions**
+
+1. How does air Pollution affect bird observation frequency in Hamburg in the years 2021-2025 and which pollutant affects the birds the most?
+
+2. How are hotspots of house sparrows in Berlin influenced by increased pollution in the years 2023-2025?
+
+3. How does bird species richness differ between urban and rural locations in Schleswig-Holstein in the last 30 days?
+
+4. How does O3 concentration influence the observation frequency of feral pigeons in Berlin in the years 2021-2024?
+
+5. Which region of Europe has the highest density of Mallard ducks observations and how stable is the population over time in the years 2020-2024?
+
+6. How does bird species richness during spring change in relation to temperature between 2020 and 2025 in northern and southern Germany?
+
+7. How does wind speed affect the observation frequency of duck species?
+
+8. How does the observation frequency of migratory bird species differ between spring and autumn in Schleswig-Holstein in the year 2021 and 2024?
+
+9. Did Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2025?
+
+**Data Pipeline**
+
+1. Data Collection:
+Bird observation data was collected using the eBird API. This includes information such as species name, observation date and location.
+Pollution Data like PM 2.5/10, O3 and NO2 was collected using OpenWeather API. The Visual Crossing API provides wind speed and temperature data.
+
+3. Data Preprocessing:
+The collected datasets were cleaned and prepared for the data analysation. This included the selection of relevant features, formatting locations and timestamps. Regarding research question 3 a classification into urban and rural areas was processed. Therefore OpenStreetMap libary was used for analysing a 100-meter radius around each observation location. Then bird observation data was merged with weather and pollution data on features like date and location.
+
+4. Data Storage:
+The processed data is stored in CSV format.
+
+5. Data Analysis and Visualisation:
+The procesed data was analysed using Python and libararies like Pandas and Numpy.
+Plotly was used for visualisation.
 
 **Building and deployement of the website**
 
