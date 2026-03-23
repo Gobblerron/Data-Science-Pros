@@ -4,8 +4,8 @@ import pandas as pd
 from datetime import date, timedelta, datetime
 
 # Configuration
-EBIRD_API_KEY = "5vhjb11idsjt"
-HEADERS = {"X-eBirdApiToken": EBIRD_API_KEY}
+EBIRD_API_KEY = ""
+HEADERS = {"": EBIRD_API_KEY}
 
 # Comparing North vs. South 
 REGIONS = {
