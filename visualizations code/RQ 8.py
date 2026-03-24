@@ -39,7 +39,7 @@ def visualize_bird_migration_final(csv_file):
         specs=[[{"type": "sunburst"}, {"type": "sunburst"}]],
         subplot_titles=("Year: 2021", "Year: 2024")
     )
-
+    # §LLM Help: to help creating the function
     def get_styled_trace(data, path):
         """Helper to create standardized sunburst traces with custom styling."""
         temp_fig = px.sunburst(
@@ -84,7 +84,7 @@ def visualize_bird_migration_final(csv_file):
     fig.add_trace(trace_combined)
 
     # 4. Interactive Layout and Menu Design
-    # AI assistance was utilized here to refine the complex dropdown 
+    #  §LLM Help: was utilized here to refine the complex dropdown 
     # update logic and annotation toggling
     fig.update_layout(
         updatemenus=[
