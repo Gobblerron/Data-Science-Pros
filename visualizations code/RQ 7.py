@@ -11,7 +11,7 @@ def visualize_wind_impact_on_waterfowl(csv_file):
     # Load dataset and prepare wind speed values for grouping
     df = pd.read_csv(csv_file)
     
-    # Rounding wind speed to the nearest integer to create manageable data bins
+    #  §LLM Help: Rounding wind speed to the nearest integer to create manageable data bins
     df['wind_rounded'] = df['wind_speed'].round(0)
     
     # 2. Statistical Aggregation
@@ -42,7 +42,7 @@ def visualize_wind_impact_on_waterfowl(csv_file):
     )
 
     # 4. Interactive Layout Adjustment
-    # AI assistance was utilized here to handle the string-parsing logic 
+    # §LLM Help: was utilized here to handle the string-parsing logic 
     # for the trace visibility toggle in the dropdown menu
     fig.update_layout(
         updatemenus=[
