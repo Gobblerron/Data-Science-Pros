@@ -23,7 +23,7 @@ def collect_bird_data(region_code, area_name, obs_date):
     url = (
         f"https://api.ebird.org/v2/data/obs/{region_code}/historic/{y}/{m}/{d}"
     )
-    #AI assistance to form the right syntax
+    # §LLM Help: to form the right syntax
     response = requests.get(url, headers=HEADERS)
     if response.status_code == 200:
         data = response.json()
@@ -44,7 +44,7 @@ def collect_bird_data(region_code, area_name, obs_date):
 def collect_weather_data(lat, lon, area_name, obs_date):
     date_str = obs_date.strftime("%Y-%m-%d")
 
-    # AI assistance: looked up URL parameter structure for Open-Meteo Archive API
+    #  §LLM Help: looked up URL parameter structure for Open-Meteo Archive API
     url = (
         f"https://archive-api.open-meteo.com/v1/archive"
         f"?latitude={lat}&longitude={lon}"
@@ -87,7 +87,7 @@ df_birds.to_csv("bird_richness_spring.csv", index=False)
 df_weather = pd.DataFrame(weather_results)
 df_weather.to_csv("weather_temp_spring.csv", index=False)
 
-# AI assistance: merge syntax for combined dataset
+#  §LLM Help: merge syntax for combined dataset
 df_final = pd.merge(df_birds, df_weather, on=["Date", "Region"], how="left")
 df_final.to_csv("final_richness_vs_temp.csv", index=False)
 
