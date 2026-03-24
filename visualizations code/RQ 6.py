@@ -55,7 +55,7 @@ def visualize_species_richness(csv_file):
     )
 
     # 5. Interactive Layout Adjustments
-    # AI assistance was utilized to implement the interactive visibility toggle
+    #  §LLM Help: was utilized to implement the interactive visibility toggle
     fig.update_layout(
         updatemenus=[
             {
