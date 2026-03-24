@@ -66,4 +66,6 @@ Throughout the project, our team made use of AI assistance at selected points in
 
 As a team, we aimed to write as much of the code independently as possible. AI assistance was only used when we were stuck or could not move forward on our own — for example when dealing with unfamiliar API structures, unclear syntax or specific function implementations. Each team member handled this individually and marked the relevant parts in their own code.
 
-Overall, the core logic of the data pipeline and the structure of the scripts were developed by the team itself. The LLM served as a support tool to help us get unstuck, not as the primary author of the code
+Overall, the core logic of the data pipeline and the structure of the scripts were developed by the team itself. The LLM served as a support tool to help us get unstuck, not as the primary author of the code.
+
+In addition, all LLM-assisted sections are explicitly marked in the code using the paragraph symbol (§) together with the label “LLM”, and each instance includes a brief explanation of how and why the LLM was used.
