@@ -95,10 +95,10 @@ while current_date <= end_date:
 
     current_date += timedelta(days=1)
 
-# Convert lists to DataFrames and save as CSV files
+# Convert lists to DataFrames and save as CSV files 
 df_w = pd.DataFrame(weather_records)
 df_b = pd.DataFrame(bird_records)
-
+#AI assistance: to find the to_csv function
 df_w.to_csv("wetter_wind_daten.csv", index=False)
 df_b.to_csv("enten_beobachtungen.csv", index=False)
 
