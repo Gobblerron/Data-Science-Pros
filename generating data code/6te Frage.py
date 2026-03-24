@@ -23,7 +23,7 @@ def collect_bird_data(region_code, area_name, obs_date):
     url = (
         f"https://api.ebird.org/v2/data/obs/{region_code}/historic/{y}/{m}/{d}"
     )
-
+    #AI assistance to form the right syntax
     response = requests.get(url, headers=HEADERS)
     if response.status_code == 200:
         data = response.json()
